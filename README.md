@@ -1,4 +1,4 @@
-# puzzle
+# a Chinese idiom puzzle game by Vue3
 
 ## Project setup
 ```

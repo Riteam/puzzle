@@ -233,7 +233,6 @@ export default {
     watch(
       () => props.puzzle,
       (newPuzzle) => {
-        console.log(19999)
         init(newPuzzle)
       }
     )
@@ -248,7 +247,6 @@ export default {
 
     // 格子点击事件
     function clickHandler(charObj) {
-      console.log(charObj)
       if (charObj.type % 4 === 0) return
       if (charObj.type < 4 && charObj.filledChar) {
         eraseChar(charObj.filledChar)
@@ -268,7 +266,6 @@ export default {
       checkFilled(selectedIndex)
     }
     function eraseChar(char) {
-      console.log('eraseChar')
       let charObj = PZ.charUsed[char]
       charObj.filledChar = ''
       delete PZ.charUsed[char]
@@ -327,8 +324,7 @@ export default {
       if (nextSelectCharObj) {
         setSelect(nextSelectCharObj)
       } else {
-        console.log('找不到啦')
-        console.log(Object.keys(PZ.charUsed))
+        console.log('无下一空格')
         if (Object.keys(PZ.charUsed).length === PZ.chars.length) {
           setTimeout(() => {
             context.emit('resolve')

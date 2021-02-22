@@ -1,3 +1,4 @@
 module.exports = {
-  publicPath: '/games/puzzle/'
+  publicPath: '/games/puzzle/',
+  title: '成语字谜小游戏',
 }

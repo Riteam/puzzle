@@ -3,8 +3,12 @@
     <div class="footer_title">ABOUT</div>
     <div class="footer_box">
       <p>作者：Jrc</p>
-      <p>GITHUB：<a href="https://github.com">github.com</a></p>
-      <p>此游戏仅为实际项目的DEMO版本</p>
+      <p>
+        Github：<a href="https://github.com/Riteam/puzzle"
+          >github.com/Riteam/puzzle</a
+        >
+      </p>
+      <p>基于实际项目开发。Vue3练习DEMO。</p>
     </div>
   </div>
 </template>
