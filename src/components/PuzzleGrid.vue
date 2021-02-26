@@ -11,13 +11,14 @@
 </template>
 
 <script>
+// eslint-disable-next-line no-unused-vars
 import { ref, onUpdated, computed, watch } from 'vue'
 export default {
   props: {
     data: Object,
   },
   setup(props) {
-    console.log('重新创建')
+    // console.log('重新创建')
     let data = computed(() => props.data)
 
     let showChar = computed(() => {
@@ -40,9 +41,9 @@ export default {
       else return ''
     }
 
-    onUpdated(() => {
-      console.log(data.value.char, '更新了')
-    })
+    // onUpdated(() => {
+    //   console.log(data.value.char, '更新了')
+    // })
 
     let doShake = ref(false)
     let doWave = ref(false)

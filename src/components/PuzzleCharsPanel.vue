@@ -24,9 +24,6 @@ export default {
       context.emit('charClick', char)
     }
 
-    let chars = reactive(props.chars)
-    console.log(chars)
-
     return {
       clickHandler,
     }

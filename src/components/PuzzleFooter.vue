@@ -4,7 +4,7 @@
     <div class="footer_box">
       <p>作者：Jrc</p>
       <p>
-        Github：<a href="https://github.com/Riteam/puzzle"
+        Github：<a href="https://github.com/Riteam/puzzle" target="_blank"
           >github.com/Riteam/puzzle</a
         >
       </p>
