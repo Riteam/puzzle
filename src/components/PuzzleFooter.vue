@@ -8,7 +8,7 @@
           >github.com/Riteam/puzzle</a
         >
       </p>
-      <p>基于实际项目开发。Vue3练习DEMO。</p>
+      <p>仅展示实际项目的核心功能；使用Vue3开发。</p>
     </div>
   </div>
 </template>
