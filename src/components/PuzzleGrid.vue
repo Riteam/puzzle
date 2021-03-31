@@ -18,7 +18,7 @@ export default {
     data: Object,
   },
   setup(props) {
-    // console.log('重新创建')
+    // console.log('重新创建~')
     let data = computed(() => props.data)
 
     let showChar = computed(() => {
