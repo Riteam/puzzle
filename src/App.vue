@@ -48,4 +48,7 @@ body {
   text-align: center;
   color: #2c3e50;
 }
+.foo {
+  flex-wrap: wrap;
+}
 </style>
