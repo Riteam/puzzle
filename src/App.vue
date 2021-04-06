@@ -27,8 +27,7 @@ html {
 }
 @media screen and (min-width: 751px) {
   html {
-    font-size: 100px;
-    -webkit-text-size-adjust: 100%;
+    font-size: 60px;
   }
 }
 body {
@@ -36,7 +35,7 @@ body {
 }
 .content_wrap {
   margin: auto;
-  max-width: 750px;
+  max-width: 8rem;
   min-height: 100vh;
   background: #e3d2a4;
   user-select: none;

@@ -2,13 +2,12 @@
   <div class="footer">
     <div class="footer_title">ABOUT</div>
     <div class="footer_box">
-      <p>作者：Jrc</p>
       <p>
         Github：<a href="https://github.com/Riteam/puzzle" target="_blank"
           >github.com/Riteam/puzzle</a
         >
       </p>
-      <p>仅展示实际项目的核心功能；使用Vue3开发。</p>
+      <p>核心功能展示；Vue3开发。</p>
     </div>
   </div>
 </template>
