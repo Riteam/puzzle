@@ -2,7 +2,7 @@
   <div
     class="grid_wrap"
     :class="{ shake: doShake, wave: doWave }"
-    @animationEnd="removeAni"
+    @animationend="removeAni"
   >
     <div class="grid grid_default" :class="getStyle()">
       {{ showChar }}
@@ -70,6 +70,7 @@ export default {
     )
 
     function removeAni() {
+      console.log('trigger removeAni')
       doShake.value = false
       doWave.value = false
     }
