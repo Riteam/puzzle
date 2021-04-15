@@ -70,7 +70,6 @@ export default {
     )
 
     function removeAni() {
-      console.log('trigger removeAni')
       doShake.value = false
       doWave.value = false
     }
